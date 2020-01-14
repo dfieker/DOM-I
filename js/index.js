@@ -119,11 +119,14 @@ Footer.textContent = "Copyright Great Idea! 2018";
 
 const Prepend = document.createElement("a");
 Prepend.textContent = "Blog";
+Prepend.style.color = "green";
 
 const firstContent = document.querySelector('nav');
 firstContent.prepend(Prepend);
 
 const Append = document.createElement("a");
 Append.textContent = "About Me";
+Append.style.color = "green";
 const secondContent = document.querySelector('nav');
 secondContent.append(Append);
+
